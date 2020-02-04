@@ -1,0 +1,38 @@
+fields:
+    name:
+        label: 'Nome'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slug:
+        label: 'Slug'
+        oc.commentPosition: ''
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text
+    is_subcategory:
+        label: É uma subcategoria?
+        type: switch
+        on: Sim
+        off: Não
+        span: auto
+           
+    # categories:
+    #     type: partial
+    #     path: $/borzoi/catalog/controllers/categories/_categories.htm
+    #     trigger: 
+    #         action: show
+    #         field: is_subcategory
+    #         condition: checked
+       
+        span: full         
+    subcategories:
+        type: partial
+        path: $/borzoi/catalog/controllers/categories/_subcategories.htm
+        trigger:
+            action: hide
+            field: is_subcategory
+            condition: checked   
+        span: full

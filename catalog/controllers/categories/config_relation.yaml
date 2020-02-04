@@ -1,0 +1,24 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+subcategories:
+    label: Subcategories
+    view:
+        list: $/borzoi/catalog/models/category/columns.yaml
+        toolbarButtons: add|remove
+        recordsPerPage: 10
+        showSearch: true
+    manage:
+        list: $/borzoi/catalog/models/category/columns.yaml
+        form: $/borzoi/catalog/models/category/fields.yaml
+categories:
+    label: Parent Categories
+    view:
+        list: $/borzoi/catalog/models/category/columns.yaml
+        toolbarButtons: add|remove
+        recordsPerPage: 10
+        showSearch: true
+    manage:
+        list: $/borzoi/catalog/models/category/columns.yaml
+        form: $/borzoi/catalog/models/category/fields.yaml   

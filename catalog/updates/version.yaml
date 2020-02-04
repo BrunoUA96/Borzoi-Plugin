@@ -1,0 +1,18 @@
+1.0.1: 
+  - Run table migrations
+  - create_products_table.php
+1.0.2:
+    - Create table relation products
+    - create_product_product_table.php
+1.0.3:
+    - Create table categories
+    - create_categories_table.php
+1.0.4:
+    - Create table subcategories
+    - create_categories_subcategories.php
+1.0.5:
+    - Create table categories products
+    - create_category_product.php
+1.0.6:
+    - Dropping columns
+    - dropping_column_products_table.php

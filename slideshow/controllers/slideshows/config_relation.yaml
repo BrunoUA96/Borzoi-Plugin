@@ -1,0 +1,12 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+slides:
+    label: Slide
+    manage:
+        form: $/borzoi/slideshow/models/slide/fields.yaml
+        list: $/borzoi/slideshow/models/slide/columns.yaml
+    view:
+        list: $/borzoi/slideshow/models/slide/columns.yaml
+        toolbarButtons: create|delete

@@ -1,0 +1,7 @@
+1.0.1: First version of SlideShow
+1.0.2:
+  - Criada a tabela slideshows
+  - create_slideshows_table.php
+1.0.3:
+  - Criada a tabela slides
+  - create_slides_table.php

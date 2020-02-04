@@ -1,0 +1,21 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+products_relacionados:
+    label: Produto
+    view:
+        list: $/borzoi/catalog/models/product/columns.yaml
+        toolbarButtons: add|remove
+    manage:
+        list: $/borzoi/catalog/models/product/columns.yaml
+        form: $/borzoi/catalog/models/product/fields.yaml
+
+categories:
+    label: Categorias
+    view:
+        list: $/borzoi/catalog/models/category/columns.yaml
+        toolbarButtons: add|remove
+    manage:
+        list: $/borzoi/catalog/models/category/columns.yaml
+        form: $/borzoi/catalog/models/category/fields.yaml

@@ -1,0 +1,44 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    title:
+        label: Título
+        span: auto
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: title
+            type: slug
+    attachments:
+        label: Imagens
+        type: fileupload
+        span: left
+    price:
+        label: Preço
+        span: right
+    sale:
+        label: Desconto
+        span: right  
+    featured:
+        label: Produto em Destaque (Aparece na Home page)
+        span: left
+        type: switch
+        on: Sim
+        off: Não 
+tabs:
+    fields:
+        description:
+            tab: Descrição
+            label: Descrição
+            type: richeditor
+            span: full
+        related_product:
+            type: partial
+            tab: Relacionados
+        categories:
+            type: partial
+            tab: Categorias

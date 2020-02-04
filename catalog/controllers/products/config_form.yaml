@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Product
+
+# Model Form Field configuration
+form: $/borzoi/catalog/models/product/fields.yaml
+
+# Model Class name
+modelClass: Borzoi\Catalog\Models\Product
+
+# Default redirect location
+defaultRedirect: borzoi/catalog/products
+
+# Create page
+create:
+    title: Create Product
+    redirect: borzoi/catalog/products/update/:id
+    redirectClose: borzoi/catalog/products
+
+# Update page
+update:
+    title: Edit Product
+    redirect: borzoi/catalog/products
+    redirectClose: borzoi/catalog/products
+
+# Preview page
+preview:
+    title: Preview Product

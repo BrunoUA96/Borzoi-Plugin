@@ -1,0 +1,11 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    titulo:
+        label: Título
+        searchable: true
+    subtitulo:
+        label: Subtítulo
+        searchable: true
