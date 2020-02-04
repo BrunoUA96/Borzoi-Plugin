@@ -84,7 +84,7 @@ class Plugin extends PluginBase
 
         return [
             'slideshow' => [
-                'label'       => 'SlideShow',
+                'label'       => 'Mensagem',
                 'url'         => Backend::url('borzoi/slideshow/slideshows'),
                 'icon'        => 'icon-picture-o',
                 'permissions' => ['borzoi.slideshow.*'],
