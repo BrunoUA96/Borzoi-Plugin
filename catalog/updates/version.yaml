@@ -16,3 +16,6 @@
 1.0.6:
     - Dropping columns
     - dropping_column_products_table.php
+1.0.7:
+    - Add Order column
+    - add_column_order_products_table.php

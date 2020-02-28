@@ -6,13 +6,16 @@ fields:
 
     title:
         label: Título
-        span: auto
+        span: left
     slug:
         label: Slug
-        span: auto
+        span: right
         preset:
             field: title
             type: slug
+    order:
+        label: Ordem
+        span: right
     attachments:
         label: Imagens
         type: fileupload

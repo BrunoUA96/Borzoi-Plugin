@@ -31,7 +31,7 @@ class Products extends ComponentBase
         if($this->property('id')) {
             $this->page['product'] = ProductModel::find($this->property('id'));
         } else {
-            $this->page['products'] = ProductModel::orderBy('created_at', 'desc')->get();
+            $this->page['products'] = ProductModel::orderBy('order')->get();
         }
 
         if($this->property('category')) {
